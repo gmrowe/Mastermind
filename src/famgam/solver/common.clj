@@ -35,7 +35,7 @@
    "Returns true if the score represents a winning game.
    A winning game is represented by a maximal number of 'hits'"
    [score]
-  (= code-length (:hits score)))
+  (= code-length (:black score)))
 
 
 (defn find-solution
